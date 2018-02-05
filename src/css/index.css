@@ -117,7 +117,7 @@ ul {
       border-bottom: 1px dashed #ccc;
       background: #fff;
       font-size: 14px; }
-  .top_wrap .top_wrap_carousel {
+  .top_wrap #top_wrap_carousel {
     width: 700px;
     height: 360px;
     float: left;
@@ -125,10 +125,12 @@ ul {
     border: 1px solid #ccc;
     position: relative;
     overflow: hidden; }
-    .top_wrap .top_wrap_carousel ul {
+    .top_wrap #top_wrap_carousel ul {
       width: 3800px;
       position: absolute;
       top: 0; }
+      .top_wrap #top_wrap_carousel ul li {
+        float: left; }
   .top_wrap .top_wrap_right {
     width: 250px;
     height: 360px;
@@ -297,7 +299,6 @@ ul {
     padding: 0 50px;
     padding-bottom: 30px;
     color: #666;
-    border: 1px solid #ccc;
     margin: 0 auto; }
     .foot #foot_main .foot_main_ul {
       padding-top: 25px;

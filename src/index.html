@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="css/index.animation.css">
+        <script src="js/index.animation.js"></script>
+        <script src="lib/jquery-3.2.1.js"></script>
         <script src="js/index.animation.js"></script>
     </head>
     <body>
@@ -59,14 +62,22 @@
                     <li><a href="#">配饰</a></li>
                 </ul>
             </div>
-            <div class="top_wrap_carousel">
+            <div id="top_wrap_carousel">
                 <ul>
-                    <li><img src="img/Carousel/l1.png" height="100%" width="100%" alt="" /></li>
-                    <li><img src="img/Carousel/l2.png" height="100%" width="100%" alt="" /></li>
-                    <li><img src="img/Carousel/l3.png" height="100%" width="100%" alt="" /></li>
-                    <li><img src="img/Carousel/l4.png" height="100%" width="100%" alt="" /></li>
+                    <li><img src="img/Carousel/l0.png" height="302px" width="702px" alt="" /></li>
+                    <li><img src="img/Carousel/l2.png" height="302px" width="702px" alt="" /></li>
+                    <li><img src="img/Carousel/l3.png" height="302px" width="702px" alt="" /></li>
+                    <li><img src="img/Carousel/l4.png" height="302px" width="702px" alt="" /></li>
+                    <li><img src="img/Carousel/l5.png" height="302px" width="702px" alt="" /></li>
                 </ul>
             </div>
+            <script>
+                jPicture("#top_wrap_carousel", {
+                    type: "slide",
+                    autoplay: 3000
+                });
+
+            </script>
             <div class="top_wrap_right">
                 <ul>
                     <li style="border-left:none;"><a href="#"><img src="img/merchandise/h1.png" height="119" width="124" alt="" /></a></li>
@@ -91,7 +102,7 @@
             <div id="activity_main">
                 <ul class="activity_main_u1">
                     <li>
-                        <div><img src="img/Carousel/l2.jpg" height="130" width="278" alt="" /></div>
+                        <div><img src="img/Carousel/l2.png" height="130" width="278" alt="" /></div>
                         <div class="dv2">
                             <span class="dv2_span">1.37折起</span>
                             <span class="dv2_span2">进入活动</span>
@@ -105,14 +116,14 @@
                         </div>
                     </li>
                     <li>
-                        <div><img src="img/Carousel/l4.jpg" height="130" width="278" alt="" /></div>
+                        <div><img src="img/Carousel/l4.png" height="130" width="278" alt="" /></div>
                         <div class="dv2">
                             <span class="dv2_span">1.37折起</span>
                             <span class="dv2_span2">进入活动</span>
                         </div>
                     </li>
                     <li>
-                        <div><img src="img/Carousel/l5.jpg" height="130" width="278" alt="" /></div>
+                        <div><img src="img/Carousel/l5.png" height="130" width="278" alt="" /></div>
                         <div class="dv2">
                             <span class="dv2_span">1.37折起</span>
                             <span class="dv2_span2">进入活动</span>
@@ -566,9 +577,9 @@
             </p>
             <div class="foot_main_dv2">
                 <a href="#"><img src="img/Logo/c9.gif" height="42" width="96" alt="" /></a>
-                <a href="#"><img src="img/Logo/c10.gif" <alt></alt>="" /></a>
-                <a href="#"><img src="img/Logo/c11.gif" <alt></alt>="" /></a>
-                <a href="#"><img src="img/Logo/c12.png" <alt></alt>="" /></a>
+                <a href="#"><img src="img/Logo/c10.gif" alt="" /></a>
+                <a href="#"><img src="img/Logo/c11.gif" alt=""/></a>
+                <a href="#"><img src="img/Logo/c12.png" alt=""/></a>
             </div>
             </div>
         </div>

@@ -118,7 +118,7 @@ ul{list-style:none;margin:0;padding:0;}
             }
         }
     }
-    .top_wrap_carousel{
+    #top_wrap_carousel{
         width:700px;
         height:360px;
         float: left;
@@ -129,6 +129,9 @@ ul{list-style:none;margin:0;padding:0;}
         ul{
             width:3800px;
             position: absolute;top: 0;
+            li{
+                float: left;
+            }
         }
     }
     .top_wrap_right{
@@ -336,7 +339,6 @@ ul{list-style:none;margin:0;padding:0;}
         padding: 0 50px;
         padding-bottom: 30px;
         color: #666;
-        border:1px solid #ccc;
         margin:0 auto;
         .foot_main_ul{
             padding-top: 25px;
