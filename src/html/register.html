@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <link rel="stylesheet" type="text/css" href="../css/register.css" />
     </head>
     <body>
     <!-- 头开始 -->
@@ -23,37 +23,34 @@
                     注册卷皮网，赢积分换好礼！
                 </span>
                 <p>
-                    已有帐号，<a href="../html/register.html">立即登录</a>
+                    还没帐号？，<a href="../html/login.html">立即注册</a>
                 </p>
             </div>
             <div class="main_center">
                 <div class="_input">
                     <form action="#" id="register">
                         <ul>
-                            <li>   
-                                <label class="normal">手机号码：</label>
-                                <input class="normal-phone" name="phone" type="text">
+                            <li class="active">
+                                <label class="normal"></label>
+                                <div class="box_border">
+                                    <div class="user_img"></div>
+                                    <input class="normal-input" id="account" placeholder="手机号/邮箱/昵称" name="account" type="text">
+                                </div>
                             </li>
-                            <li>
-                                <label class="normal">创建密码：</label>
-                                <input class="normal-password" id="password" name="password"type="password">
-                            </li>
-                            <li>
-                                <label class="normal">确认密码：</label>
-                                <input class="normal-passwords" id="password" name="password"type="password">
-                            </li>
-                            <li>
-                                <label class="normal">验证码：</label>
-                                <input class="normal-code" placeholder="验证码" name="code" type="text">
+                            <li class="clear">
+                                <label class="normal"></label>
+                                <div class="box_border">
+                                    <div class="code_img"></div>
+                                    <input class="normal-input" placeholder="密码" name="password" id="inter_code" type="password">
+                                </div>
                             </li>
                             <li>
                                 <label class="normal"></label>
                                 <div class="btn">
-                                    <input class="normal-btn" value="立即注册" type="submit">
+                                    <input class="normal-btn" value="立即登录" type="submit">
                                     <span id="loading"></span>
                                 </div>
-                            </li>
-                            
+                            </li> 
                         </ul>
                     </form>
                 </div>
