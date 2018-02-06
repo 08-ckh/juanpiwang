@@ -57,10 +57,8 @@
                         <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
                     </ul>
                     <div id="deal_dv1">
-                        <img src="../img/merchandise/15.jpg" alt="" />
+                        <img id="img1" src="../img/merchandise/15.jpg" alt="" />
                     </div>
-                    <script type="text/javascript">
-                    </script>
                     <div class="deal_dv2">
                         <span class="deal_dv2_span">
                             <span style="margin:0;">100%人工质检</span>
@@ -131,8 +129,8 @@
                             </p>
                         </div>
                         <div class="button">
-                            <a class="buy btn" href="">立即购买</a>
-                            <a class="add btn" href="">加入购物车</a>
+                            <a class="buy btn">立即购买</a>
+                            <a class="add btn" id="button" >加入购物车</a>
                         </div>
                     </div>
                 </div>
@@ -151,6 +149,7 @@
             </div>
             
         </div>
+        
     <!-- 商品详情结束 -->
     <!-- 页脚 -->
         <div class="foot">
@@ -228,7 +227,7 @@
                 <li class="li1 normal">
                     <a href=""><i class="normal-icon i-user"></i></a>
                 </li>
-                <li class="li2 normal">
+                <li class="li2 normal" id="btn1-add">
                     <a href=""><i class="normal-icon i-cart"></i><em class="num cartnum">0</em></a>
                 </li>
                 <li class="li3 normal">
@@ -248,7 +247,11 @@
                 <li class="normal bottom2"><a href=""><i class="normal-icon i-code"></i></a></li>
                 <li class="normal bottom3"><a href=""><i class="normal-icon i-backtop"></i></a></li>
             </ul>
+            <script src="../lib/jquery.js"></script>
+            <script src="../js/details.flyingCar.js"></script>
         </div>
     <!-- follow-car结束 -->
+
     </body>
+    
 </html>
