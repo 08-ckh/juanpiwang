@@ -1,0 +1,775 @@
+a{text-decoration:none; color:#000;}
+body{margin:0;padding:0;background-color:#fff;}
+ul{list-style:none;margin:0;padding:0;}
+.container{margin: 0 auto;width:1200px;}
+address, cite, dfn, em, var, i {font-style: normal;}
+
+.header{
+    width:100%;height:30px;
+    background-color:#F6F6F6;
+    margin:0px;
+    .header-ul{
+        width:550px;
+        height:100%;
+        float:right;
+        margin:0;
+        margin-right:40px;
+        padding:0px;
+        li{
+            float:left;
+            margin-left: 20px;
+            line-height: 30px;
+            font-size: 12px;
+            a:hover{
+                color:#FF464E;
+            }
+        }
+        .mycar{
+            position: relative;
+            z-index: 101;
+            width: 107px;
+            height: 30px;
+            .bag-a {
+                position: absolute;
+                width: 107px;
+                display: block;
+                top: 2px;
+                left: 0;
+                text-align: center;
+                z-index: 15;
+                margin-left: 0;
+                .icon-bag {
+                    background:url(../img/instrument/icon-total.png) no-repeat 0 0;
+                    position: relative;
+                    background-position: 0 -156px;
+                    width: 16px;
+                    height: 18px;
+                    float: left;
+                    margin: 4px 8px 0 12px;
+                }
+                .f1{
+                    float: left;
+                    display: inline;
+                }
+                em {
+                    background: none repeat scroll 0 0 #ff464e;
+                    border-radius: 15px;
+                    color: #fff;
+                    display: inline;
+                    font-family: "宋体";
+                    height: 18px;
+                    line-height: 18px;
+                    margin: 3px 0 0 5px;
+                    text-align: center;
+                    width: 18px;
+                    float: right;
+                }
+            }
+        }
+        .mycar:hover {
+            background:#fff;
+            border:1px solid #ccc;
+        }
+        
+    }
+
+}
+
+.header_search{
+    width:100%;height:126px;
+    background-color:#fff;
+    #search_top{
+        width:100%;height:86px;
+        position:relative;
+        .search_top_1{
+            width:800px;height:86px;
+            background:url(../img/Logo/head.png);
+            float: left;
+            margin-left:108px;
+        }
+        .search_top_2{
+            width:237px;height:35px;
+            float: left;
+            position:absolute;
+            top:25px;
+            right:120px;
+            span{
+                display: block;
+                width: 200px;
+                height: 35px;
+                background: #efefef;
+                float: left;
+                input{
+                    border: 0 none;
+                    outline: 0 none;
+                    background: #efefef;
+                    width: 190px;
+                    height: 30px;
+                    line-height: 30px;
+                    margin: 2px 0 0 10px;
+                    color: #424251;
+                    font-size: 12px;
+
+                
+                }
+            }
+            input{
+                background-position: right -65px;
+                border: 0 none;
+                cursor: pointer;
+                height: 35px;
+                width: 37px;
+                float:right;
+
+                background:url(../img/instrument/search.png);
+            }
+
+        }
+    }
+    #search_bottom{
+        width:100%;
+        height: 38px;
+        border-bottom: 2px solid #ff464e;
+        .search_bottom_1{
+            float: left;
+            display: inline;
+            margin-left:115px;
+            li{
+                float: left;
+                display: inline;
+                height: 38px;
+                position: relative;
+                z-index: 11;
+                a{
+                    float: left;
+                    cursor: pointer;
+                    padding: 10px 24px 0;
+                    color: #333;
+                    font-size: 14px;
+                    height: 30px;
+                }
+                a:hover{
+                    color:#fff;
+                }
+            }
+            li:hover{
+                background:  #ff464e;
+                border-radius: 6px 6px 0 0;
+
+            }
+        }
+    }
+}
+
+.main{
+    margin-top: 20px;
+    height:600px;
+    background:#fff;
+    .place_show{
+        width: 1200px;
+        height: auto;
+        margin: 0 0 20px 0px;
+        a{
+            font-size: 14px;
+            color: #333;
+            margin: 0 5px;
+        }
+        .tab_arrow {
+            width: 6px;
+            height: 10px;
+            display: inline-block;
+            background: url('../img/instrument/tab_arrow.png') no-repeat;
+            background-size: auto auto;
+            background-size: 100% 100%;
+        }
+    }
+    .goods_show{
+        width:100%;
+        height:538px;
+        border-bottom: 2px dotted #ebebeb;
+        .deal_1{
+            display: inline-block;
+            width: 480px;
+            height:478px;
+            vertical-align: top;
+            margin-bottom: 60px;
+            ul{
+                width: 58px;
+                display: inline-block;
+                font-size: 0;
+                margin-right: 18px;
+                vertical-align: middle;
+                li{
+                    border: 1px solid #ebebeb;
+                    height: 58px;
+                    margin-bottom: 8px;
+                    width: 58px;
+                    a{
+                        display: table-cell;
+                        height: 58px;
+                        overflow: hidden;
+                        vertical-align: middle;
+                        width: 58px;
+                        img{
+                            height:100%;
+                            width:100%;
+                        }
+                    }
+                }
+            }
+            #deal_dv1{
+                display: inline-block;
+                height: 400px;
+                overflow: hidden;
+                vertical-align: middle;
+                width: 400px;
+                text-align: center;
+                float: right;
+                img{
+                    height:100%;
+                    width:100%;
+                }
+            }
+            .deal_dv2{
+                margin-top: 20px;
+                margin-left: 80px;
+                .deal_dv2_span{
+                    display: inline-block;
+                    span{
+                        display: inline;
+                        font-size: 12px;
+                        color: #666;
+                        margin-left: 0;
+                        margin-left: 26px;
+                    }
+                }
+            }
+            .deal_dv3{
+                width: 338px;
+                clear: both;
+                margin: 20px 0 0 76px;
+                line-height: 20px;
+
+                .deal_dv3_div1{
+                    margin-right: 60px;
+                    float: left;
+                    a{
+                        color: #666;
+                        font-size:12px;
+                        i{
+                            
+                            width: 21px;
+                            height: 17px;
+                            display: inline-block;
+                            overflow: hidden;
+                            vertical-align: -4px;
+                            margin-right: 5px;
+                            background: url(../img/instrument/mall-total.gif) no-repeat;
+                            background-position:-103px 2px;
+                        }
+                    }
+                }
+                .deal_dv3_div2{
+                    margin-right: 60px;
+                    float: left;
+                    a{
+                        color: #666;
+                        font-size:12px;
+                        i{
+                            background:url(../img/instrument/share.png);
+                            background-size: auto auto;
+                            width: 12px;
+                            height: 12px;
+                            background-size: 100%;
+                            vertical-align: middle;
+                            margin-top: -4px;
+                        }
+                    }
+                }
+                .deal_dv3_div3{
+                    
+                    font-size:12px;
+                    a{
+                        color:#666;
+                    }
+                }
+            }
+        }
+        .deal_2{
+            width: 460px;
+            height:458px;
+            margin-left: 36px;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            h1{
+                color: #333;
+                font-size: 18px;
+                max-height: 52px;
+                width: 460px;
+                overflow-y: hidden;
+            }
+            .goods-info{
+                float: left;
+                display: inline;
+                line-height: 32px;
+                width: 460px;
+                height:431px;
+                padding-bottom: 80px;
+                .goods_basic{
+                    background: #FFF0F0;
+                    margin: 10px 0 0 0;
+                    padding: 8px 0 10px 10px;
+                    position: relative;
+                    height:66px;
+                    .goods_basic_dv1{
+                        width:450px;
+                        height:32px;
+                        .s1{
+                            font-size:22px;color:red;
+                            a{
+                                color:red;
+                                font-size:28px;
+                            }
+                        }
+                        .s2{
+                            font-size:15px;
+                            color:#999999;
+                            margin-left:10px;
+                            a{
+                                font-size:16px;
+                                color:#999999;
+                            }
+                        }
+                    }
+                    .goods_basic_dv2{
+                        width:450px;
+                        height:32px;
+                        .chuxiao{
+                            color: #999;
+                            width: 50px;
+                            float:left;
+                            line-height: 32px;
+                            font-size:12px; 
+                        }
+                        .info{
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            width: 340px;
+                            line-height: 29px;
+                            font-size:12px;
+                            a{
+                                margin-left: 5px;
+                                font-family: "黑体";
+                                font-size:14px;
+                                span{
+                                    width: 8px;
+                                    height: 9px;
+                                    background: url('../img/instrument/tab_arrow.png');
+                                    background-size: auto auto;
+                                    background-size: 100% 100%;
+                                    display: inline-block;
+                                    margin-left: 2px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .freight{
+                    margin: 6px 0 6px 10px;
+                    width:450px;
+                    height:32px;
+                    font-size:12px;
+                    .freight_span{
+                        float: left;
+                        color: #999999;
+                        width: 50px;
+                        line-height: 32px;
+                        font-size:12px;
+                    }
+                }
+                .color{
+                    width:450px;
+                    height:50px;
+                    margin-top: 12px;
+                    padding-left: 10px;
+                    padding-top:20px;
+                    color: #666;
+                    border-top:1px dashed #ccc;
+                    .color_span{
+                        float: left;
+                        color: #999999;
+                        width: 50px;
+                        font-size:12px;
+                    }
+                    ul{
+                        float: left;
+                        li{
+                            border: 1px solid #ccc;
+                            float: left;
+                            display: inline;
+                            height: 32px;
+                            line-height: 32px;
+                            margin: 0 5px 10px;
+                            position: relative;
+                            min-width: 34px;
+                        }
+                    }
+                }
+                .size{
+                    width:450px;
+                    height:50px;
+                    margin-top: 12px;
+                    padding-left: 10px;
+                    color: #666;
+                    .size_span{
+                        float: left;
+                        color: #999999;
+                        width: 50px;
+                        font-size:12px;
+                    }
+                    ul{
+                        float: left;
+                        li{
+                            border: 1px solid #ccc;
+                            float: left;
+                            display: inline;
+                            height: 32px;
+                            line-height: 32px;
+                            margin: 0 5px 10px;
+                            position: relative;
+                            min-width: 34px;
+                            text-align:center;
+                        }
+                    }
+                }
+                .number{
+                    width:450px;
+                    height:50px;
+                    margin-top: 12px;
+                    padding-left: 10px;
+                    color: #666;
+                    .number_span{
+                        float: left;
+                        color: #999999;
+                        width: 50px;
+                        font-size:12px;
+                    }
+                    p{
+                        background: none repeat scroll 0 0 #fff;
+                        border: 1px solid #e2e2e2;
+                        float: left;
+                        margin-right: 10px;
+                        height: 28px;
+                        margin-top:0px;
+                        margin-left:5px;
+                        i{
+                            cursor: pointer;
+                            float: left;
+                            font: bold 18px/26px "微软雅黑";
+                            height: 28px;
+                            text-align: center;
+                            width: 26px;
+                        }
+                        input{
+                            background: #f6f6f6;
+                            font-size: 14px;
+                            border-color: #e2e2e2;
+                            border-style: solid;
+                            border-width: 0 1px;
+                            float: left;
+                            height: 28px;
+                            padding: 0 5px;
+                            text-align: center;
+                            width: 40px;
+                            color: #8a8a8a;
+                            font-family: "Arial";
+                        }
+                    }
+                }
+                .button{
+                    width:352px;
+                    height:40px;
+                    margin: 20px 0 0 64px;
+                    float: left;
+                    display: inline;
+                    position: relative;
+                    .btn{
+                        text-align: center;
+                        line-height: 38px;
+                        background: #FFF0F0;
+                        width: 154px;
+                        height: 38px;
+                        display: block;
+                        font-size: 18px;
+                        color: #ff464e;
+                        font-family: "微软雅黑","宋体";
+                        float: left;
+                        border-radius: 2px;
+                        border: 1px solid #ff464e;
+                    }
+                    .add{
+                        background: #ff464e;
+                        color: #fff;
+                        border-color: transparent;
+                        margin-left: 40px;
+                    }
+                }
+            }
+        }
+        .deal_3{
+            display: inline-block;
+            margin-left: 16px;
+            width: 191px;
+            height: 381px;
+            background: #fff;
+            border: 1px solid #ebebeb;
+            vertical-align: top;
+            text-align: center;
+            .deal_3_top{
+                width:151px;
+                height:154px;
+                padding: 20px 0;
+                margin: 0 20px;
+                border-bottom: 1px dotted #ebebeb;
+            }
+            .deal_3_center{
+                width:151px;
+                margin: 0 20px;
+                height:154px;
+                border: 1px solid #ebebeb;
+                a{
+                    text-align:center;
+                    width:151px;
+                    display: block;
+                    margin:15px 0;
+                    font-size:14px;
+                    color:#666666;
+                }
+            }
+        }
+    }
+}
+
+.foot{
+    height:390px;
+    margin:0 auto;
+    margin-top: 40px;
+    background: #f9f9f9;
+    border-top: #ff464e solid 4px;
+    #foot_main{
+        width:1100px;
+        height:100%;
+        padding: 0 50px;
+        padding-bottom: 30px;
+        color: #666;
+        margin:0 auto;
+        .foot_main_ul{
+            padding-top: 25px;
+            margin: 0 auto;
+            height:161px;
+            width:100%;
+            li{
+                height:140px;
+                width:183px;
+                float: left;
+                h3{
+                    margin:0px;
+                    margin-bottom:5px;
+                }
+                li{
+                    height:30px;
+                    width:183px;
+                    float: left;
+                    font-size:14px;
+                }
+            }
+        }
+        .foot_main_dv1{
+            height: 20px;
+            overflow: hidden;
+            padding: 10px 0px;            
+            border-bottom: 1px dotted #ccc;
+            color: #999999;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto;
+            .foot_main_dv1_span1{float: left; font-size:13px;}
+            .foot_main_dv1_span2{float:right; font-size:13px;}
+            ul li{
+                float: left;
+                margin:0px 15px;
+                font-size:12px;
+            }   
+        }
+        .foot_main_p1{
+            text-align: center;
+            padding-top: 20px;
+            color: #c6c6c6;
+            font-size:12px;
+        }
+        .foot_main_p2{
+            text-align: center;
+            color: #c6c6c6;
+            font-size:12px;
+        }
+        .foot_main_dv2{
+            height:61.5px;
+            color: #999999;
+            text-align: center;
+            padding-top: 10px;
+            a{
+                margin:0 10px;
+            }
+            
+        }
+    }
+}
+
+.car{
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 36px;
+    z-index: 102;
+    background-color: #444;
+    .normal-icon{
+            display: block;
+            background:url(../img/instrument/sidebar.png) no-repeat;
+        }
+        .normal {
+            margin-top: 30px;
+            position: relative;
+        }
+
+    .car_top{
+        top: 60px;
+        position: absolute;
+        width:100%;
+        height:275px;
+        li:hover{
+            background:red;
+        }
+        .li1{
+            a{
+                padding-top:4px;
+            }
+            .i-user{
+                background-position: 0 0;
+                width: 18px;
+                height: 18px;
+                margin-left: 9px;
+
+            }
+            
+        }
+        .li1:hover i{
+                background-position: -26px 0;
+            }
+       
+        .li2{
+            margin-top: 15px;
+            position: relative;
+            border-top: #222 solid 1px;
+            border-bottom: #222 solid 1px;
+            padding:10px 0;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+             .i-cart {
+                height: 77px;
+                width: 18px;
+                background-position: 1px -24px;
+                margin: 0 0 0 9px;
+            }
+            
+            .num {
+                background: #ff464e;
+                border-radius: 15px;
+                color: #fff;
+                display: block;
+                font-family: "宋体";
+                height: 18px;
+                line-height: 18px;
+                width: 18px;
+                text-align: center;
+                margin: 5px 0 0 9px;
+            }
+        }
+        .li2:hover i{
+            background-position: -26px -24px;
+        }
+        .li2:hover .num{
+           color: red;
+           background-color:#fff;
+        }
+        .li3{
+            .i-love{
+                width: 18px;
+                height: 18px;
+                background-position: 0 -110px;
+                margin: 0 0 0 9px;
+            }
+        }
+        .li3:hover i{
+            background-position: -26px -110px;
+        }
+        .li4{
+            .i-quan {
+                width: 18px;
+                height: 18px;
+                background-position: 0 -134px;
+                margin: 0 0 0 9px;
+            }
+        }
+         .li4:hover i{
+            background-position: -26px -134px;
+        }   
+    }
+    .car_bottom{
+        width:36px;
+        height:153px;
+        position: absolute;
+        bottom: 0;
+        top: auto;
+        li:hover{
+            background:red;
+        }
+        .bottom1{
+            .i-complain {
+                width: 18px;
+                height: 18px;
+                background-position: 0 -208px;
+                margin: 0 0 0 9px;
+            }
+        }
+        .bottom1:hover i{
+            background-position: -26px -208px;
+        }
+        .bottom2{
+            .i-code{
+                width: 18px;
+                height: 18px;
+                background-position: 0 -160px;
+                margin: 0 0 0 9px;
+            }
+        }
+        .bottom2:hover i{
+            background-position: -26px -160px;
+        }
+        .bottom3{
+            .i-backtop {
+                width: 18px;
+                height: 18px;
+                background-position: 0 -187px;
+                margin: 0 0 0 9px;
+            }
+        }
+        .bottom3:hover i{
+            background-position: -26px -187px;
+        }
+        
+    }
+}
