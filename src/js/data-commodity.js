@@ -8,7 +8,7 @@ jQuery(function($){
                 
                 
                 $ul.html(data.map(item=>{
-                    return `<li><a>
+                    return `<li ><a href="html/list.html">
                                 <div class="main_dv1">
                                     <img src="${item.picture}" height="100%" width="100%" alt="" />
                                 </div>
