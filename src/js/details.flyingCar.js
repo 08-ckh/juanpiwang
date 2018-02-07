@@ -1,3 +1,10 @@
+/* 
+* @Author: Marte
+* @Date:   2018-02-06 11:35:02
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-07 10:47:22
+*/
+
 (function(){
 	let totalBtn1 = 0,
 		totalBtn2 = 0;

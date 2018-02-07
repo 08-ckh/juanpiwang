@@ -6,7 +6,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color: #F6F6F6; }
+  background-color: #fff; }
 
 ul {
   list-style: none;
@@ -152,6 +152,21 @@ address, cite, dfn, em, var, i {
         background: #ff464e;
         border-radius: 6px 6px 0 0; }
 
+.choice {
+  width: 1420px;
+  height: 20px;
+  padding: 15px 0;
+  text-align: center; }
+  .choice ul {
+    margin: 0 110px; }
+    .choice ul li {
+      float: left;
+      margin-right: 18px;
+      font-size: 14px;
+      color: #666; }
+  .choice li:hover a {
+    color: red; }
+
 .main {
   margin-top: 30px;
   background: #fff;
@@ -191,6 +206,46 @@ address, cite, dfn, em, var, i {
         font-size: 12px; }
     .main #main_main li:hover {
       border: 1px solid #A3A9B7; }
+
+.page {
+  padding: 0 0 40px;
+  padding-top: 30px;
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  width: 1200px; }
+  .page span {
+    background: #ff464e;
+    border: medium none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px; }
+  .page a {
+    border: medium none;
+    background: none repeat scroll 0 0 #FFF;
+    margin-left: 1px;
+    padding: 10px 15px;
+    overflow: hidden;
+    color: #919191;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: none;
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7); }
+  .page .pg-prev {
+    color: #bbb;
+    font-weight: normal;
+    background: #fff;
+    width: 60px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7);
+    padding: 10px 15px; }
+  .page .pg-next {
+    width: 60px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7); }
+  .page a:hover {
+    color: #fff;
+    background: #ff464e; }
 
 .foot {
   height: 390px;

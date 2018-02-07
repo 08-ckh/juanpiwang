@@ -68,7 +68,7 @@ ul {
       float: left;
       display: inline; }
       .login_main .main_center ._input li {
-        padding-bottom: 25px;
+        padding: 25px;
         overflow: visible;
         position: relative;
         height: 45px;
@@ -90,8 +90,6 @@ ul {
           line-height: 14px;
           width: 250px;
           float: left; }
-        .login_main .main_center ._input li .normal-code {
-          width: 130px; }
         .login_main .main_center ._input li .normal-btn {
           width: 260px;
           height: 40px;
@@ -100,6 +98,29 @@ ul {
           border-radius: 2px;
           color: #fff;
           background: #FF4251; }
+        .login_main .main_center ._input li .box_border {
+          float: left;
+          width: 260px;
+          height: 38px;
+          border: 1px solid #666; }
+          .login_main .main_center ._input li .box_border .user_img {
+            background: url(../img/instrument/name2.jpg) no-repeat #f1f1f1;
+            width: 39px;
+            height: 38px;
+            float: left; }
+          .login_main .main_center ._input li .box_border input {
+            color: #666;
+            padding: 12px 0 12px 10px;
+            height: 12px;
+            line-height: 14px;
+            width: 209px;
+            float: right;
+            font-size: 12px; }
+          .login_main .main_center ._input li .box_border .code_img {
+            background: url(../img/instrument/code2.jpg) no-repeat #f1f1f1;
+            width: 39px;
+            height: 38px;
+            float: left; }
 
 .foot {
   width: 1422px;
