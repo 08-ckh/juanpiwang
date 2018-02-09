@@ -216,6 +216,9 @@ address, cite, dfn, em, var, i {font-style: normal;}
                         }
                     }
                 }
+                li:hover{
+                   border: 1px solid #000; 
+                }
             }
             #deal_dv1{
                 display: inline-block;

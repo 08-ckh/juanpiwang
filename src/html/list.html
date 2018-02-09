@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="../css/list.css">
         <script src="../lib/jquery-3.2.1.js"></script>
         <script src="../js/list.paging.js"></script>
+        <script src="../js/list.sandData.js"></script>
     </head>
     <body>
     <!-- 头部开始 -->
@@ -63,23 +64,25 @@
     <!-- 导航结束 -->
     <!-- 商品列表开始 -->
         <div class="main container">
-            <ul id="main_main">
-                <li><a href="#">
-                <div class="main_dv1">
-                    <img src="../img/merchandise/2.jpg" height="100%" width="100%" alt="" />
-                </div>
-                <div class="main_dv2">
-                    <span class="main_dv2_span1">
-                        <em>￥</em>
-                        16.8
-                    </span>
-                    <span class="main_dv2_span2">
-                        <em>￥</em>
-                        168
-                    </span>
-                </div>
-                <h3>牛皮高系带休闲鞋</h3>
-                </a></li>
+            <ul id="main_main" style="height:1500px;">
+                <li>
+                <a>
+                    <div class="main_dv1">
+                        <img src="../img/merchandise/2.jpg" height="100%" width="100%" alt="" />
+                    </div>
+                    <div class="main_dv2">
+                        <span class="main_dv2_span1">
+                            <em>￥</em>
+                            16.8
+                        </span>
+                        <span class="main_dv2_span2">
+                            <em>￥</em>
+                            168
+                        </span>
+                    </div>
+                    <h3>牛皮高系带休闲鞋</h3>
+                </a>
+                </li>
                 <li><a href="#">
                 <div class="main_dv1">
                     <img src="../img/merchandise/3.jpg" height="100%" width="100%" alt="" />
@@ -548,7 +551,7 @@
             <!-- 翻页 -->
                 <div class="page">
                     <div>
-                        <span class="pg-prev">上一页</span>
+                        <a class="pg-prev">上一页</a>
                         <span class="pg-1">1</span>
                         <a class="pg-2">2</a>
                         <a class="pg-next">下一页</a>
@@ -635,7 +638,7 @@
                     <a href=""><i class="normal-icon i-user"></i></a>
                 </li>
                 <li class="li2 normal">
-                    <a href=""><i class="normal-icon i-cart"></i><em class="num cartnum">0</em></a>
+                    <a href="../html/car.html"><i class="normal-icon i-cart"></i><em class="num cartnum">0</em></a>
                 </li>
                 <li class="li3 normal">
                     <a href=""><i class="normal-icon i-love"></i>

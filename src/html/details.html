@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../css/details.css" />
+        
+        <script src="../lib/jquery-3.2.1.js"></script>
         <script src="../js/details.animation.js" ></script>
+        <script src="../js/common.js"></script>
+        <script src="../js/dataSand.details.js"></script>
     </head>
     <body>
     <!-- 头部开始 -->
@@ -42,19 +46,19 @@
     <!-- 商品详情开始 -->
         <div class="main container">
             <div class="place_show">
-                <a href="#" class="tab-links">商品列表</a>
+                <a href="../html/list.html" class="tab-links">商品列表</a>
                 <em class="tab_arrow"></em>
                 <a class="tab-links" href="#">商品详情</a>       
             </div>
             <div class="goods_show">
                 <div class="deal_1">
                     <ul>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
-                        <li><a href="#"><img src="../img/merchandise/12.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/13.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/14.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/15.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/16.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/17.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="../img/merchandise/18.jpg" alt="" /></a></li>
                     </ul>
                     <div id="deal_dv1">
                         <img id="img1" src="../img/merchandise/15.jpg" alt="" />
@@ -108,7 +112,7 @@
                                 <li style="background:yellow;"></li>
                                 <li style="background:blue"></li>
                                 <li style="background:#58bc58"></li>
-                                <li></li>
+                                
                             </ul>
                         </div>
                         <div class="size">
@@ -124,7 +128,7 @@
                             <span class="number_span">数量：</span>
                             <p>
                                 <i class="decrease">-</i>
-                                <input name="amount" value="1" type="text">
+                                <input id="amount" name="amount" value="1" type="text">
                                 <i class="increase">+</i>
                             </p>
                         </div>
@@ -228,7 +232,7 @@
                     <a href=""><i class="normal-icon i-user"></i></a>
                 </li>
                 <li class="li2 normal" id="btn1-add">
-                    <a href=""><i class="normal-icon i-cart"></i><em class="num cartnum">0</em></a>
+                    <a><i class="normal-icon i-cart"></i><em class="num cartnum">0</em></a>
                 </li>
                 <li class="li3 normal">
                     <a href=""><i class="normal-icon i-love"></i>
@@ -247,7 +251,6 @@
                 <li class="normal bottom2"><a href=""><i class="normal-icon i-code"></i></a></li>
                 <li class="normal bottom3"><a href=""><i class="normal-icon i-backtop"></i></a></li>
             </ul>
-            <script src="../lib/jquery.js"></script>
             <script src="../js/details.flyingCar.js"></script>
         </div>
     <!-- follow-car结束 -->

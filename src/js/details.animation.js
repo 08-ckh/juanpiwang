@@ -111,5 +111,50 @@ document.addEventListener('DOMContentLoaded',function(){
         showImg.style.top = -top * multiple + 'px';
     }
     }
-    fangda('deal_dv1', 120, 100, 'blue', 0.6, 3, '../img/merchandise/15.jpg');
+
+
+    $(document).ready(function(){
+    var pa = location.search;
+
+    var params = pa.slice(2).split('$');
+    console.log(params);
+    var goodss={};
+        params.forEach(function(item){
+            var arr = item.split('=');
+            goodss[arr[0]]= decodeURI(arr[1]);
+        });
+    console.log(goodss);
+
+    $('.deal_2').children('h1').text(goodss.name);
+    $('#img1').attr('src',''+goodss.src+'');
+    $('#value').text(goodss.price);
+    $('#refer').text(goodss.discount);
+    $('.goods_show').attr( 'data-guid',''+goodss.id+'' );
+    fangda('deal_dv1', 120, 100, 'blue', 0.6, 3, goodss.src);
+});
+
+
+
+
+
+    $(".size ul li").click(function(){ 
+        $(this).css('border','1px solid #000');
+        $(this).siblings().css('border','1px solid #ccc');
+    });
+    $(".color ul li").click(function(){ 
+        $(this).css('border','1px solid #000');
+        $(this).siblings().css('border','1px solid #ccc');
+
+    });
+    var i=1;
+    $(".increase").click(function(){ 
+        i++;
+        $(this).prev().attr('value',''+i+'');
+    });
+    $(".decrease").click(function(){ 
+        i--;
+        if(i<1){i=1};
+        $(this).next().attr('value',''+i+'');
+    });
+    
 });

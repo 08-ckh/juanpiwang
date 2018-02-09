@@ -1,0 +1,290 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 auto;
+  width: 1200px; }
+
+address, cite, dfn, em, var, i {
+  font-style: normal; }
+
+.header {
+  width: 100%;
+  height: 30px;
+  background-color: #F6F6F6;
+  margin: 0px; }
+  .header .header-ul {
+    width: 550px;
+    height: 100%;
+    float: right;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0px; }
+    .header .header-ul li {
+      float: left;
+      margin-left: 20px;
+      line-height: 30px;
+      font-size: 12px; }
+      .header .header-ul li a:hover {
+        color: #FF464E; }
+    .header .header-ul .mycar {
+      position: relative;
+      z-index: 101;
+      width: 107px;
+      height: 30px; }
+      .header .header-ul .mycar .bag-a {
+        position: absolute;
+        width: 107px;
+        display: block;
+        top: 2px;
+        left: 0;
+        text-align: center;
+        z-index: 15;
+        margin-left: 0; }
+        .header .header-ul .mycar .bag-a .icon-bag {
+          background: url(../img/instrument/icon-total.png) no-repeat 0 0;
+          position: relative;
+          background-position: 0 -156px;
+          width: 16px;
+          height: 18px;
+          float: left;
+          margin: 4px 8px 0 12px; }
+        .header .header-ul .mycar .bag-a .f1 {
+          float: left;
+          display: inline; }
+        .header .header-ul .mycar .bag-a em {
+          background: none repeat scroll 0 0 #ff464e;
+          border-radius: 15px;
+          color: #fff;
+          display: inline;
+          font-family: "宋体";
+          height: 18px;
+          line-height: 18px;
+          margin: 3px 0 0 5px;
+          text-align: center;
+          width: 18px;
+          float: right; }
+    .header .header-ul .mycar:hover {
+      background: #fff;
+      border: 1px solid #ccc; }
+
+.header_search {
+  width: 100%;
+  height: 126px;
+  background-color: #fff; }
+  .header_search #search_top {
+    width: 100%;
+    height: 86px;
+    position: relative; }
+    .header_search #search_top .search_top_1 {
+      width: 800px;
+      height: 86px;
+      background: url(../img/Logo/head.png);
+      float: left;
+      margin-left: 108px; }
+    .header_search #search_top .search_top_2 {
+      width: 237px;
+      height: 35px;
+      float: left;
+      position: absolute;
+      top: 25px;
+      right: 120px; }
+      .header_search #search_top .search_top_2 span {
+        display: block;
+        width: 200px;
+        height: 35px;
+        background: #efefef;
+        float: left; }
+        .header_search #search_top .search_top_2 span input {
+          border: 0 none;
+          outline: 0 none;
+          background: #efefef;
+          width: 190px;
+          height: 30px;
+          line-height: 30px;
+          margin: 2px 0 0 10px;
+          color: #424251;
+          font-size: 12px; }
+      .header_search #search_top .search_top_2 input {
+        background-position: right -65px;
+        border: 0 none;
+        cursor: pointer;
+        height: 35px;
+        width: 37px;
+        float: right;
+        background: url(../img/instrument/search.png); }
+  .header_search #search_bottom {
+    width: 100%;
+    height: 38px;
+    border-bottom: 2px solid #ff464e; }
+    .header_search #search_bottom .search_bottom_1 {
+      float: left;
+      display: inline;
+      margin-left: 115px; }
+      .header_search #search_bottom .search_bottom_1 li {
+        float: left;
+        display: inline;
+        height: 38px;
+        position: relative;
+        z-index: 11; }
+        .header_search #search_bottom .search_bottom_1 li a {
+          float: left;
+          cursor: pointer;
+          padding: 10px 24px 0;
+          color: #333;
+          font-size: 14px;
+          height: 30px; }
+        .header_search #search_bottom .search_bottom_1 li a:hover {
+          color: #fff; }
+      .header_search #search_bottom .search_bottom_1 li:hover {
+        background: #ff464e;
+        border-radius: 6px 6px 0 0; }
+
+.maintou {
+  background: #fff;
+  height: 30px; }
+  .maintou span {
+    display: block;
+    float: left;
+    width: 25%;
+    font-size: 12px;
+    color: red;
+    line-height: 30px;
+    text-align: center; }
+
+.container {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background: #fff; }
+  .container #btnClear {
+    height: 20px;
+    width: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
+    background: red;
+    border: 1px solid #ccc; }
+  .container #carList li {
+    position: relative;
+    height: 60px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd; }
+    .container #carList li img {
+      display: block;
+      width: 60px;
+      float: left;
+      margin-left: 120px; }
+    .container #carList li .btn-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0 5px;
+      cursor: default;
+      margin-top: 35px;
+      border: 1px solid #ccc; }
+    .container #carList li h4 {
+      display: block;
+      float: left;
+      margin: 0 230px; }
+    .container #carList li .btn-close {
+      float: left;
+      display: block;
+      margin-right: 140px; }
+    .container #carList li .btn-close:hover {
+      background-color: #f00;
+      color: #fff; }
+    .container #carList li .price {
+      margin: 20px;
+      width: 200px;
+      display: block;
+      float: left; }
+    .container #carList li .price span {
+      color: #f00;
+      font-size: 11px; }
+    .container #carList li .price span::before {
+      content: '￥';
+      font-size: 11px; }
+  .container .subPrice {
+    padding: 5px 20px;
+    color: #f00;
+    font-weight: bold;
+    text-align: right;
+    border-bottom: 1px solid #ccc; }
+
+.foot {
+  height: 390px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #f9f9f9;
+  border-top: #ff464e solid 4px; }
+  .foot #foot_main {
+    width: 1100px;
+    height: 100%;
+    padding: 0 50px;
+    padding-bottom: 30px;
+    color: #666;
+    margin: 0 auto; }
+    .foot #foot_main .foot_main_ul {
+      padding-top: 25px;
+      margin: 0 auto;
+      height: 161px;
+      width: 100%; }
+      .foot #foot_main .foot_main_ul li {
+        height: 140px;
+        width: 183px;
+        float: left; }
+        .foot #foot_main .foot_main_ul li h3 {
+          margin: 0px;
+          margin-bottom: 5px; }
+        .foot #foot_main .foot_main_ul li li {
+          height: 30px;
+          width: 183px;
+          float: left;
+          font-size: 14px; }
+    .foot #foot_main .foot_main_dv1 {
+      height: 20px;
+      overflow: hidden;
+      padding: 10px 0px;
+      border-bottom: 1px dotted #ccc;
+      color: #999999;
+      white-space: nowrap;
+      overflow: hidden;
+      margin: 0 auto; }
+      .foot #foot_main .foot_main_dv1 .foot_main_dv1_span1 {
+        float: left;
+        font-size: 13px; }
+      .foot #foot_main .foot_main_dv1 .foot_main_dv1_span2 {
+        float: right;
+        font-size: 13px; }
+      .foot #foot_main .foot_main_dv1 ul li {
+        float: left;
+        margin: 0px 15px;
+        font-size: 12px; }
+    .foot #foot_main .foot_main_p1 {
+      text-align: center;
+      padding-top: 20px;
+      color: #c6c6c6;
+      font-size: 12px; }
+    .foot #foot_main .foot_main_p2 {
+      text-align: center;
+      color: #c6c6c6;
+      font-size: 12px; }
+    .foot #foot_main .foot_main_dv2 {
+      height: 61.5px;
+      color: #999999;
+      text-align: center;
+      padding-top: 10px; }
+      .foot #foot_main .foot_main_dv2 a {
+        margin: 0 10px; }

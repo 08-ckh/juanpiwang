@@ -201,6 +201,8 @@ address, cite, dfn, em, var, i {
             .main .goods_show .deal_1 ul li a img {
               height: 100%;
               width: 100%; }
+        .main .goods_show .deal_1 ul li:hover {
+          border: 1px solid #000; }
       .main .goods_show .deal_1 #deal_dv1 {
         display: inline-block;
         height: 400px;
