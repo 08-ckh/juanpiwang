@@ -9,8 +9,6 @@
 
     $row=$result->fetch_all(MYSQLI_ASSOC);
 
-
-    //$cc=array_slice($row,6,21);
         
          
     $res = array(

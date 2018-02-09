@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 
     let pageNo = 1;
-    let qty = 24;
+    let qty = 25;
     let arr_status = [200,304];
 
     let xhr = new XMLHttpRequest();
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded',function(){
             }
     }
 
-    xhr.open('post','../php/list.php');
+    xhr.open('post','../api/list.php');
     xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
     xhr.send(`pageNo=${pageNo}&qty=${qty}`);
 
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded',function(){
     page.onclick = function(e){
             if(e.target.tagName.toLowerCase() === 'span'){
                 pageNo = e.target.innerText*1;
-                xhr.open('post','../php/list.php'); 
+                xhr.open('post','../api/list.php'); 
                 xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
                 xhr.send(`pageNo=${pageNo}&qty=${qty}`);
             }

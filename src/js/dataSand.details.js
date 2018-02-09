@@ -13,6 +13,11 @@ $(document).ready(function(){
     $('.cartnum').text(goodslist.length);
 
 
+    $('.car_top').on('click','li',function(){
+        location.href="../html/car.html";
+    })
+
+
     $('#button').on('click',function(){
         var pa = location.search;
         var params = pa.slice(2).split('$');

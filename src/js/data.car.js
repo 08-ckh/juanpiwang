@@ -39,7 +39,10 @@ $(document).ready(function(){
             var now = new Date();
             now.setDate(now.getDate()-10);
             document.cookie = 'goodslist=null;expires='+now.toUTCString();
-            render();
+            $('#carList ul').empty();
+            
+            var total = 0;
+            oSubPrice.innerHTML = '总计：' + 0;
     }
 
     oCarList.onclick = function(e){

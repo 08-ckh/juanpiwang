@@ -2,7 +2,7 @@ jQuery(function($){
     var $ul=$('#main_main');
     console.log($ul);   
     $.ajax({
-            url:"php/goodss.php",
+            url:"api/goodss.php",
             dataType:'json',
             success:function(data){
                 
