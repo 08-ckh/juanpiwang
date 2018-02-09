@@ -1,0 +1,25 @@
+{
+  "name": "juanpi",
+  "version": "1.0.0",
+  "description": "\"juanpi\"",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/08-ckh/juanpiwang.git"
+  },
+  "keywords": [
+    "juanpi"
+  ],
+  "author": "caokehua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/08-ckh/juanpiwang/issues"
+  },
+  "homepage": "https://github.com/08-ckh/juanpiwang#readme"
+}
